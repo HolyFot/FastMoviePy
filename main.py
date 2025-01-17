@@ -1,5 +1,6 @@
 ###############################################################################################################################################
 # STEP 1:            Not my code, Author: ODTitan
+# Install Pip 10.4: (pip install Pillow==10.4)
 # In the /.venv/Lib/site-packages/moviepy/video/compositing/CompositeVideoClip.py, replace the make_frame function with the following code:
 ###############################################################################################################################################
         def make_frame(t):
