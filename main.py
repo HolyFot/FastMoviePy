@@ -3,6 +3,9 @@
 # Install Pip 10.4: (pip install Pillow==10.4)
 # In the /.venv/Lib/site-packages/moviepy/video/compositing/CompositeVideoClip.py, replace the make_frame function with the following code:
 ###############################################################################################################################################
+
+#Uncomment this line if its giving you errors about PIL
+#from PIL import Image, ImageDraw, ImageFont
         def make_frame(t):
             full_w, full_h = self.bg.size
             f = self.bg.get_frame(t).astype('uint8')
